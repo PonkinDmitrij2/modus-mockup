@@ -1,0 +1,16 @@
+.logo {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.logo__text {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: lowercase;
+}

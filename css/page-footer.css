@@ -1,0 +1,7 @@
+.page-footer {
+  position: relative;
+  min-width: 1180px;
+  height: 350px;
+  margin-top: -350px;
+  background-color: #76c7c0;
+}

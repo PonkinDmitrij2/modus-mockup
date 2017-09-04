@@ -1,0 +1,49 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+/*
+============== Font Awesome =================
+
+              === arrows ===
+<i class="fa fa-angle-down" aria-hidden="true"></i>
+
+<i class="fa fa-angle-double-left" aria-hidden="true"></i>
+<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+
+<i class="fa fa-angle-left" aria-hidden="true"></i>
+<i class="fa fa-angle-right" aria-hidden="true"></i>
+
+<i class="fa fa-chevron-left" aria-hidden="true"></i>
+<i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+              === services icon ===
+<i class="fa fa-flag" aria-hidden="true"></i>
+<i class="fa fa-flask" aria-hidden="true"></i>
+<i class="fa fa-key" aria-hidden="true"></i>
+<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+
+             === accordion icon ===
+<i class="fa fa-plus-circle" aria-hidden="true"></i>
+<i class="fa fa-minus-circle" aria-hidden="true"></i>
+
+             === portfolio icon ===
+<i class="fa fa-eye" aria-hidden="true"></i>
+<i class="fa fa-link" aria-hidden="true"></i>
+
+             === markers icon ===
+<i class="fa fa-times" aria-hidden="true"></i>
+<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+<i class="fa fa-arrow-right" aria-hidden="true"></i>
+<i class="fa fa-check" aria-hidden="true"></i>
+
+   === !about dekor ===
+<i class="fa fa-circle" aria-hidden="true"></i>
+*/
+
+
+@import url(./main.css);
+@import url(./page-header.css);
+@import url(./logo.css);
+@import url(./main-navigation.css);
+
+@import url(./page-footer.css);
+@import url(./btn.css);

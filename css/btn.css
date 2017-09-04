@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 8.5px 30.5px;
+  border: none;
+  font: normal 700 14px/24px "Open Sans", Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  color: #202242;
+  background-color: #ffe13e;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}

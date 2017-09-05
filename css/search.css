@@ -1,0 +1,16 @@
+.search {
+  position: relative;
+}
+
+.search__input {
+  display: none;
+}
+
+.search__btn {
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+}

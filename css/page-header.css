@@ -1,17 +1,23 @@
 .page-header {
-  padding-top: 23px;
-  background-color: #76c7c0;
+  padding: 23px 0 21px;
+  background: #76c7c0 url(../img/header_bg.svg) center bottom no-repeat;
 }
 
 .page-header__logo {
   float: left;
-  min-width: 200px;
-  margin-right: 192px;
+  width: 18%;
+  margin-right: 16%;
   padding-left: 8px;
 }
 
 .page-header__menu {
   float: left;
-  min-width: 700px;
+  width: 61%;
   padding-top: 2px;
+}
+
+.page-header__search {
+  float: left;
+  width: 5%;
+  padding: 10px 0 0 37px;
 }

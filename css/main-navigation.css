@@ -28,6 +28,7 @@
   vertical-align: middle;
   margin-right: 8px;
   font-size: 14px;
+  line-height: 1;
 }
 
 .main-nav__link-text {
@@ -65,21 +66,21 @@
   list-style: none;
   border-radius: 5px;
   background-color: #e2534b;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 .main-nav__sub-list::before {
   content: "";
   position: absolute;
   left: 0;
-  top: -12px;
+  top: -13px;
   width: 100%;
-  height: 12px;
+  height: 14px;
   background: transparent;
 }
 
 .main-nav__sub-list::after {
   content: "";
-  display: block;
   position: absolute;
   left: 7%;
   bottom: 100%;

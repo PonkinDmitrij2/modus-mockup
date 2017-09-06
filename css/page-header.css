@@ -1,6 +1,6 @@
 .page-header {
   padding: 23px 0 21px;
-  background: #76c7c0 url(../img/header_bg.svg) center bottom no-repeat;
+  background: #76c7c0 url(../img/header_bg.svg) center bottom repeat-x;
 }
 
 .page-header__logo {
@@ -19,5 +19,5 @@
 .page-header__search {
   float: left;
   width: 5%;
-  padding: 10px 0 0 37px;
+  padding: 2px 0 0 24px;
 }

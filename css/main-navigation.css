@@ -59,6 +59,7 @@
 .main-nav__sub-list {
   position: absolute;
   top: 46px;
+  z-index: 100;
   display: none;
   width: 200px;
   margin: 0;

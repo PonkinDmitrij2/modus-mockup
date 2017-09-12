@@ -39,14 +39,16 @@
 <i class="fa fa-circle" aria-hidden="true"></i>
 */
 
-
+@import url(./btn.css);
 @import url(./main.css);
 @import url(./page-header.css);
 @import url(./logo.css);
 @import url(./main-navigation.css);
 @import url(./search.css);
+@import url(./home.css);
 @import url(./carousel.css);
-
+@import url(./intro.css);
+@import url(./services.css);
 
 @import url(./page-footer.css);
-@import url(./btn.css);
+

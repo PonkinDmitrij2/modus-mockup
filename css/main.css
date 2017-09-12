@@ -52,5 +52,8 @@ body {
 .container {
   width: 1170px;
   margin: 0 auto;
-  /*outline: 1px solid red;*/
+}
+
+.container_margined {
+  margin-bottom: 60px;
 }

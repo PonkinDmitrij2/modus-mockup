@@ -1,0 +1,46 @@
+.intro {
+  margin-bottom: 50px;
+  padding: 20px 36px 22px 25px;
+  border-radius: 5px;
+  background-color: #ececec;
+}
+
+.intro__link {
+  float: right;
+  margin-top: 4px;
+  font-size: 20px;
+  line-height: 24px;
+  box-shadow: 0 4px #e2534b;
+  background-color: #e8645a;
+}
+
+.intro__link:hover {
+  background-color: #d93600;
+}
+
+.intro__link:active {
+  background-color: #d93600;
+  box-shadow: 0 4px #d93600;
+  transform: translateY(3px);
+}
+
+.intro__content {
+  margin-right: 255px;
+}
+
+.intro__title {
+  margin: 0;
+  margin-bottom: 2px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  color:  #7f8c8c;
+}
+
+.intro__text {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20.8px;
+  color:  #777777;
+}

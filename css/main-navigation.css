@@ -21,6 +21,7 @@
   text-decoration: none;
   color: #fff;
   border-bottom: 3px solid transparent;
+  transition: 0.5s;
 }
 
 .main-nav__link-icon {
@@ -37,7 +38,7 @@
 }
 
 .main-nav__link_active {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   border-radius: 5px;
   border-bottom: 3px solid #528b86;

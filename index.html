@@ -84,13 +84,11 @@
           </div>
           <div class="page-header__search">
             <div class="search">
-              <button class="search__btn" type="button">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-              <form class="search__form" action="#" method="get">
-                <label class="search__label">
-                  <input class="search__input" type="search" name="search" placeholder="Search the site">
-                </label>
+              <form class="search__form" action="#" method="post">
+                <button class="search__submit" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+                <input class="search__input" type="search" placeholder="Search...">
               </form>
             </div>
           </div>
@@ -160,34 +158,44 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container  container_margined">
       <section class="intro clearfix">
-        <a href="#" class="intro__link btn">VIEW MORE</a>
-        <h3 class="intro__title">Some of our top services</h3>
-        <p class="intro__text">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. </p>
+        <a href="#" class="btn intro__link">VIEW MORE</a>
+        <div class="intro__content">
+          <h3 class="intro__title">Some of our top services</h3>
+          <p class="intro__text">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. </p>
+        </div>
       </section>
 
       <div class="services clearfix">
-        <section class="service service_suspendisse">
-          <h4 class="service__title">SUSPENDISSE</h4>
-          <p class="service__text"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc.</p>
-          <a href="#" class="service__link">read more</a>
-        </section>
-        <section class="service service_maecenas">
-          <h4 class="service__title">MAECENAS</h4>
-          <p class="service__text">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
-          <a href="#" class="service__link">read more</a>
-        </section>
-        <section class="service service_aliquam">
-          <h4 class="service__title">ALIQUAM</h4>
-          <p class="service__text">Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
-          <a href="#" class="service__link">read more</a>
-        </section>
-        <section class="service service_habitasse">
-          <h4 class="service__title">HABITASSE</h4>
-          <p class="service__text">Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
-          <a href="#" class="service__link">read more</a>
-        </section>
+        <a href="#" class="service__link">
+          <section class="service service_suspendisse">
+            <h4 class="service__title">SUSPENDISSE</h4>
+            <p class="service__text"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc.</p>
+            <span class="service__btn btn">read more</span>
+          </section>
+        </a>
+        <a href="#" class="service__link">
+          <section class="service service_maecenas">
+            <h4 class="service__title">MAECENAS</h4>
+            <p class="service__text">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+            <span class="service__btn btn">read more</span>
+          </section>
+        </a>
+        <a href="#" class="service__link">
+          <section class="service service_aliquam">
+            <h4 class="service__title">ALIQUAM</h4>
+            <p class="service__text">Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
+            <span class="service__btn btn">read more</span>
+          </section>
+        </a>
+        <a href="#" class="service__link">
+          <section class="service service_habitasse">
+            <h4 class="service__title">HABITASSE</h4>
+            <p class="service__text">Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
+            <span class="service__btn btn">read more</span>
+          </section>
+        </a>
       </div>
     </div>
 

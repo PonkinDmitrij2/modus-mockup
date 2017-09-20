@@ -84,6 +84,7 @@
   width: 60px;
   height: 5px;
   background-color: #B0B8B9;
+  transition: ease-in-out 0.5s;
 }
 
 .carousel__indicator:hover {

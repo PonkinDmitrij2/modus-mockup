@@ -12,6 +12,7 @@
   line-height: 24px;
   box-shadow: 0 4px #e2534b;
   background-color: #e8645a;
+  transition: background-color 0.5s;
 }
 
 .intro__link:hover {
@@ -34,7 +35,7 @@
   font-size: 30px;
   font-weight: 600;
   line-height: 36px;
-  color:  #7f8c8c;
+  color: #7f8c8c;
 }
 
 .intro__text {
@@ -42,5 +43,5 @@
   font-size: 13px;
   font-weight: 400;
   line-height: 20.8px;
-  color:  #777777;
+  color: #777777;
 }

@@ -87,11 +87,12 @@
 }
 
 .service__btn:hover {
-  box-shadow: 0 4px #e2534b;
   background-color: #e8645a;
+  box-shadow: 0 4px #e2534b;
 }
 
 .service__btn:active {
+  transition: none;
   background-color: #d93600;
   box-shadow: 0 4px #d93600;
   transform: translateY(3px);

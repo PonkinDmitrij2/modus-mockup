@@ -98,7 +98,7 @@
 
     <div class="home">
       <div id="carousel" class="carousel">
-        <input class="carousel__active" type="radio" id="carousel-1" name="carousel" hidden checked="checked">
+        <input class="carousel__active" type="radio" id="carousel-1" name="carousel" hidden checked>
         <div class="carousel__item">
           <div class="carousel__controls">
             <label for="carousel-3" class="carousel__control prev" title="Prev">
@@ -203,40 +203,76 @@
       <div class="container">
         <h2 class="about__title">WHY MODUS VERSUS?</h2>
         <p class="about__text">Capacitance cascading integer reflective interface data development high bus cache dithering transponder.</p>
-        <div class="about__browsers">
-          <div class="about__browsers about__browsers_left"></div>
-          <div class="about__browsers about__browsers_right"></div>
-          <div class="about__browsers about__browsers_center"></div>
+        <div class="about__slider">
+          <div class="slider">
+            <input class="slider__active" type="radio" id="slider-1" value="1" name="slider" checked>
+            <input class="slider__active" type="radio" id="slider-2" value="2" name="slider">
+            <input class="slider__active" type="radio" id="slider-3" value="3" name="slider">
+
+            <div class="slider__item slider__item-one">
+              <div class="slider-content slider-content-one">
+
+              </div>
+              <label for="slider-1" class="slider__control"></label>
+            </div>
+
+            <div class="slider__item slider__item-two">
+              <div class="slider-content slider-content-two">
+
+              </div>
+              <label for="slider-2" class="slider__control"></label>
+            </div>
+
+            <div class="slider__item slider__item-three">
+              <div class="slider-content slider-content-three">
+
+              </div>
+              <label for="slider-3" class="slider__control"></label>
+            </div>
+          </div>
         </div>
-        <div class="about__content">
+
+        <div class="about__content clearfix">
           <div class="advantages">
             <h4 class="advantages__title">Why Choose Us ?</h4>
             <ul class="advantages__list">
-              <li class="advantages__item">Quisque at massa ipsum</li>
-              <li class="advantages__item">Maecenas a lorem augue, egestas</li>
-              <li class="advantages__item">Cras vitae felis at lacus eleifend</li>
-              <li class="advantages__item">Etiam auctor diam pellentesque</li>
-              <li class="advantages__item">Nulla ac massa at dolor</li>
-              <li class="advantages__item">Condimentum eleifend vitae vitae</li>
+              <li class="advantages__item">
+                Quisque at massa ipsum
+              </li>
+              <li class="advantages__item">
+                Maecenas a lorem augue, egestas
+              </li>
+              <li class="advantages__item">
+                Cras vitae felis at lacus eleifend
+              </li>
+              <li class="advantages__item">
+                Etiam auctor diam pellentesque
+              </li>
+              <li class="advantages__item">
+                Nulla ac massa at dolor
+              </li>
+              <li class="advantages__item">
+                Condimentum eleifend vitae vitae
+              </li>
             </ul>
           </div>
           <div class="statistics">
             <p class="statistics__text">Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus <a href="#" class="statistics__link">vehicula mattis</a>. Nulla ac massa at dolor condimentum eleifend vitae vitae urna.</p>
-            <div class="statistics__row">
-              <div class="statistics__item">
-                <div class="statistics__value statistics__value_suspendisse">50</div>
+            <div class="statistics__row clearfix">
+              <div class="statistics__item statistics__item_suspendisse">
+                <div class="statistics__value">50</div>
                 <div class="statistics__descr">SUSPENDISSE</div>
               </div>
-              <div class="statistics__item">
-                <div class="statistics__value statistics__value_maecenas">70</div>
+              <div class="statistics__item statistics__item_maecenas">
+                <div class="statistics__value">70</div>
                 <div class="statistics__descr">MAECENAS</div>
               </div>
-              <div class="statistics__item">
-                <div class="statistics__value statistics__value_aliquam">80</div>
+              <div class="statistics__item statistics__item_aliquam">
+                <div class="statistics__value">80</div>
                 <div class="statistics__descr">ALIQUAM</div>
               </div>
-              <div class="statistics__item">
-                <div class="statistics__value statistics__value_habitasse">100</div>
+              <div class="statistics__item statistics__item_habitasse">
+                <div class="statistics__value">100</div>
                 <div class="statistics__descr">HABITASSE</div>
               </div>
             </div>
@@ -244,7 +280,7 @@
           <div class="feedback">
             <h4 class="feedback__title">What Client’s Say ?</h4>
             <blockquote class="feedback__text">
-              Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula mattis. Nulla ac massa at dolor condimentum
+              Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula mattis. <span>Nulla ac massa at dolor condimentum</span>
             </blockquote>
             <div class="feedback__author">Jhon Doe</div>
           </div>
@@ -368,6 +404,5 @@
       </div>
     </div>
   </footer>
-  <script src="./js/main.js"></script>
 </body>
 </html>

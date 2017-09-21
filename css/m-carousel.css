@@ -1,0 +1,56 @@
+.m-carousel {
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.m-carousel__item {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.m-carousel__active:checked + .m-carousel__item {
+  opacity: 1;
+  pointer-events: auto;
+  position: static;
+}
+
+.m-carousel__item img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.m-carousel__controls {
+  padding-bottom: 20px;
+  font-size: 0;
+  text-align: right;
+}
+
+.m-carousel__control {
+  display: inline-block;
+  background: rgba(232, 100, 90, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  z-index: 2;
+}
+
+.m-carousel__control:hover {
+  background: rgb(232, 100, 90);
+}
+
+.m-carousel__control.prev {
+  margin-right: 20px;
+}
+
+.m-carousel__control.next {
+
+}

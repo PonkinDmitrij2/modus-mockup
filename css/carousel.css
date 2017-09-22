@@ -96,31 +96,3 @@
 #carousel-3:checked ~ .carousel__indicators .carousel__indicator[for="carousel-3"] {
   background-color: #E2534B;
 }
-
-
-
-/* ========== carousel_modified ========== */
-/*.carousel__controls_modified {
-  position: static;
-  padding-bottom: 20px;
-  font-size: 0;
-  text-align: right;
-}
-
-.carousel__control_modified {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-}
-
-.carousel__control_modified.prev {
-  float: none;
-  margin-right: 20px;
-  border-radius: 5px;
-}
-
-.carousel__control_modified.next {
-  float: none;
-  border-radius: 5px;
-}*/

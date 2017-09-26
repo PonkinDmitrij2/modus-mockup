@@ -7,10 +7,13 @@
   background: #76c7c0 url(../img/footer_bg.svg) center top repeat-x;
 }
 
+.page-footer__top {
+  display: flex;
+}
+
 .page-footer__info,
 .page-footer__links,
 .page-footer__blog {
-  float: left;
   width: 31.624%;
   margin-right: 2.564%;
 }
@@ -55,21 +58,19 @@
 
 /* ========== page-footer__links ========== */
 .page-footer__links {
+  display: flex;
   padding-top: 4px;
 }
 
-.company,
-.community {
-  float: left;
+.footer-menu {
   width: 46%;
 }
 
-.company {
+.footer-menu:first-child {
   margin-right: 8%;
 }
 
-.company__title,
-.community__title {
+.footer-menu__title {
   margin: 0;
   margin-bottom: 24px;
   font-size: 20px;
@@ -79,32 +80,27 @@
   opacity: 0.5;
 }
 
-.company__list,
-.community__list {
+.footer-menu__list {
   margin: 0;
   padding-left: 25px;
   list-style: none;
 }
 
-.company__item,
-.community__item {
+.footer-menu__item {
   line-height: 1.7;
 }
 
-.company__link,
-.community__link {
+.footer-menu__link {
   display: inline-block;
   color: #fff;
   text-decoration: none;
 }
 
-.company__link:hover,
-.community__link:hover {
+.footer-menu__link:hover{
   color: #e8645a;
 }
 
-.company__link-icon,
-.community__link-icon {
+.footer-menu__link-icon {
   margin-right: 6px;
   font-size: 14px;
 }
@@ -132,12 +128,11 @@
 }
 
 .page-footer__preview-link {
-  display: block;
+  display: flex;
   text-decoration: none;
 }
 
 .page-footer__preview-pic {
-  float: left;
   width: 19%;
   height: 70px;
   margin-right: 4%;
@@ -158,7 +153,6 @@
 }
 
 .page-footer__preview-descr {
-  float: left;
   width: 77%;
   line-height: 1.5;
 }
@@ -182,8 +176,12 @@
   background-color:  rgba(0, 0, 0, 0.1);
 }
 
+.page-footer__bottom-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
 .page-footer__copyright{
-  float: left;
   padding-top: 3px;
   font-size: 12px;
   line-height: 1.8;
@@ -191,7 +189,6 @@
 }
 
 .social {
-  float: right;
   font-size: 0;
 }
 

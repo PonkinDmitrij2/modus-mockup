@@ -1,8 +1,4 @@
 .page-footer {
-  position: relative;
-  min-width: 1180px;
-  height: 350px;
-  margin-top: -350px;
   padding-top: 43px;
   background: #76c7c0 url(../img/footer_bg.svg) center top repeat-x;
 }

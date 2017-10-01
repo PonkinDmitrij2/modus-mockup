@@ -20,15 +20,11 @@ body {
 
 .wrapper {
   position: relative;
+  display: flex;
+  flex-direction: column;
   min-width: 1180px;
   min-height: 100%;
   overflow: hidden;
-}
-
-.wrapper::after {
-  content: "";
-  display: block;
-  height: 350px;
 }
 
 .clearfix::before,
@@ -41,15 +37,11 @@ body {
   clear: both;
 }
 
-.to-left {
-  float: left;
-}
-
-.to-right {
-  float: right;
-}
-
 .container {
   width: 1170px;
   margin: 0 auto;
+}
+
+.content {
+  flex: 1 0 auto;
 }

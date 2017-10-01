@@ -1,0 +1,98 @@
+.g-carousel {
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.g-carousel__item {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.g-carousel__active:checked + .g-carousel__item {
+  opacity: 1;
+  pointer-events: auto;
+  position: static;
+}
+
+.g-carousel__item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.g-carousel__controls {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
+
+.g-carousel__control {
+  background: rgba(232, 100, 90, 0.5);
+  cursor: pointer;
+  font-size: 30px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 3%;
+  z-index: 2;
+}
+
+.g-carousel__control:hover {
+  background: rgb(232, 100, 90);
+}
+
+.g-carousel__control.prev {
+  float: left;
+  border-radius: 0 5px 5px 0;
+}
+
+.g-carousel__control.next {
+  float: right;
+  border-radius: 5px 0 0 5px;
+}
+
+.g-carousel__indicators {
+  bottom: 5%;
+  left: 5%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 21px;
+  right: 5%;
+  text-align: center;
+  z-index: 2;
+  font-size: 0;
+}
+
+.g-carousel__indicators li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.g-carousel__indicators li:last-child {
+  margin-right: 0;
+}
+
+.g-carousel__indicator {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background-color: #B0B8B9;
+  transition: ease-in-out 0.5s;
+}
+
+.g-carousel__indicator:hover {
+ background-color: #E2534B;
+}
+
+#g-carousel-1:checked ~ .g-carousel__indicators .g-carousel__indicator[for="g-carousel-1"],
+#g-carousel-2:checked ~ .g-carousel__indicators .g-carousel__indicator[for="g-carousel-2"],
+#g-carousel-3:checked ~ .g-carousel__indicators .g-carousel__indicator[for="g-carousel-3"] {
+  background-color: #E2534B;
+}

@@ -1,0 +1,98 @@
+.s-carousel {
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.s-carousel__item {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.s-carousel__active:checked + .s-carousel__item {
+  opacity: 1;
+  pointer-events: auto;
+  position: static;
+}
+
+.s-carousel__item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.s-carousel__controls {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
+
+.s-carousel__control {
+  background: rgba(232, 100, 90, 0.5);
+  cursor: pointer;
+  font-size: 30px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 3%;
+  z-index: 2;
+}
+
+.s-carousel__control:hover {
+  background: rgb(232, 100, 90);
+}
+
+.s-carousel__control.prev {
+  float: left;
+  border-radius: 0 5px 5px 0;
+}
+
+.s-carousel__control.next {
+  float: right;
+  border-radius: 5px 0 0 5px;
+}
+
+.s-carousel__indicators {
+  bottom: 5%;
+  left: 5%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 21px;
+  right: 5%;
+  text-align: center;
+  z-index: 2;
+  font-size: 0;
+}
+
+.s-carousel__indicators li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.s-carousel__indicators li:last-child {
+  margin-right: 0;
+}
+
+.s-carousel__indicator {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background-color: #B0B8B9;
+  transition: ease-in-out 0.5s;
+}
+
+.s-carousel__indicator:hover {
+ background-color: #E2534B;
+}
+
+#s-carousel-1:checked ~ .s-carousel__indicators .s-carousel__indicator[for="s-carousel-1"],
+#s-carousel-2:checked ~ .s-carousel__indicators .s-carousel__indicator[for="s-carousel-2"],
+#s-carousel-3:checked ~ .s-carousel__indicators .s-carousel__indicator[for="s-carousel-3"] {
+  background-color: #E2534B;
+}

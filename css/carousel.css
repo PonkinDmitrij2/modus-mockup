@@ -96,3 +96,19 @@
 #carousel-3:checked ~ .carousel__indicators .carousel__indicator[for="carousel-3"] {
   background-color: #E2534B;
 }
+
+.carousel__content {
+  min-height: 700px;
+}
+
+.carousel__content_first {
+  background-image: url(../img/photo-1.jpg);
+}
+
+.carousel__content_second {
+  background-image: url(../img/photo-2.jpg);
+}
+
+.carousel__content_third {
+  background-image: url(../img/photo-3.png);
+}

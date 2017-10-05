@@ -27,17 +27,17 @@
 .s-carousel__controls {
   width: 100%;
   position: absolute;
-  top: 45%;
+  top: 36%;
 }
 
 .s-carousel__control {
   background: rgba(232, 100, 90, 0.5);
   cursor: pointer;
-  font-size: 30px;
-  height: 50px;
-  line-height: 50px;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
-  width: 3%;
+  width: 14%;
   z-index: 2;
 }
 
@@ -61,7 +61,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-top: 21px;
+  padding-top: 28px;
   right: 5%;
   text-align: center;
   z-index: 2;
@@ -81,7 +81,7 @@
   box-sizing: border-box;
   cursor: pointer;
   display: block;
-  width: 60px;
+  width: 30px;
   height: 5px;
   background-color: #B0B8B9;
   transition: ease-in-out 0.5s;

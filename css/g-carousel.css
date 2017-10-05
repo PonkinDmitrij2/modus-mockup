@@ -27,7 +27,7 @@
 .g-carousel__controls {
   width: 100%;
   position: absolute;
-  top: 45%;
+  top: 43%;
 }
 
 .g-carousel__control {
@@ -37,7 +37,7 @@
   height: 50px;
   line-height: 50px;
   text-align: center;
-  width: 3%;
+  width: 5%;
   z-index: 2;
 }
 
@@ -56,16 +56,12 @@
 }
 
 .g-carousel__indicators {
-  bottom: 5%;
-  left: 5%;
-  list-style: none;
   margin: 0;
   padding: 0;
-  padding-top: 21px;
-  right: 5%;
+  padding-top: 32px;
   text-align: center;
-  z-index: 2;
   font-size: 0;
+  list-style: none;
 }
 
 .g-carousel__indicators li {

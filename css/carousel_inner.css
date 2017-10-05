@@ -1,0 +1,37 @@
+/* ========== carousel_inner ========== */
+
+.carousel_inner-wrapper {
+  margin-bottom: 60px;
+}
+
+.carousel__controls_inner {
+  top: 44%;
+}
+
+.carousel__control_inner {
+  width: 4%;
+}
+
+.carousel__indicators_inner {
+  padding-top: 34px;
+  padding-left: 31px;
+}
+
+.carousel__content {
+  min-height: 700px;
+  border-radius: 5px;
+  box-shadow: 0 3px #e5e6e6;
+  background-color:  #f8f8f8;
+}
+
+.carousel__content_first {
+  background-image: url(../img/photo-1.jpg);
+}
+
+.carousel__content_second {
+  background-image: url(../img/photo-2.jpg);
+}
+
+.carousel__content_third {
+  background-image: url(../img/photo-3.png);
+}

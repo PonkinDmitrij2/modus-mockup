@@ -1,0 +1,72 @@
+.s-accordion {
+  width: 100%;
+}
+
+.s-accordion__open {
+  display: none;
+}
+
+.s-accordion__control {
+  position: relative;
+  display: block;
+  padding: 16px 50px 18px 22px;
+  border-radius: 5px;
+  border-bottom: 4px solid #e5e6e6;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 800;
+  color: #7f8c8c;
+  background-color: #F8F8F8;
+  /* text-shadow: 1px 1px 1px rgba(255,255,255,0.3); */
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.s-accordion__control::before {
+  content: "\f055";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-40%);
+  font-family: "FontAwesome";
+  font-size: 20px;
+  color: #869292;
+  /*transition: 0.5s;*/
+}
+
+.s-accordion__control:hover, .s-accordion__open:checked + .s-accordion__control {
+  background-color: #fff;
+  /*text-shadow:1px 1px 1px rgba(0,0,0,0.5)*/
+}
+
+.s-accordion__open:checked + .s-accordion__control {
+  border-radius: 5px 5px 0 0;
+  border-bottom: 4px solid transparent;
+}
+
+.s-accordion__open:checked + .s-accordion__control::before {
+  content: "\f056";
+}
+
+.s-accordion__content {
+  height: 0;
+  padding: 3px 22px;
+  font-size: 0;
+  border-radius: 0 0 5px 5px;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+}
+
+.s-accordion__open:checked + .s-accordion__control + .s-accordion__content {
+  height: 80px;
+  margin-bottom: 6px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #777777;
+  background-color: #fff;
+  border-bottom: 4px solid #e5e6e6;
+}
+
+.s-accordion__content p {
+  margin-top: 0;
+}

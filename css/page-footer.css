@@ -129,19 +129,31 @@
 }
 
 .page-footer__preview-pic {
+  position: relative;
   width: 19%;
   height: 70px;
   margin-right: 4%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.page-footer__preview-pic::before {
+  content: "\f03e";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   font-family: FontAwesome;
   font-size: 30px;
   line-height: 70px;
   text-align: center;
-  border-radius: 5px;
   color: rgba(255, 255, 255, 0.5);
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .page-footer__preview-pic img {
+  position: relative;
+  z-index: 10;
   display: block;
   width: 70px;
   height: 70px;

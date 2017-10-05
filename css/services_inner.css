@@ -1,0 +1,12 @@
+.services_inner {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.service__link_inner {
+  float: none;
+  flex: 0 0 23.077%;
+}

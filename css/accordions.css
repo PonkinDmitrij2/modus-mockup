@@ -1,0 +1,17 @@
+.accordions {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  padding-top: 32px;
+}
+
+.accordions__main {
+  flex: 0 0 74.4%;
+}
+
+.accordions__sidebar {
+  flex: 0 0 23%;
+  margin-left: auto;
+}

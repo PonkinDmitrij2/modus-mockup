@@ -125,30 +125,30 @@
 
     <main class="content">
       <section class="heading">
-        <div class="container">
+        <div class="heading-layout  container">
           <h1 class="heading__title">Features</h1>
           <div class="breadcrumbs">
             <ul class="breadcrumbs__list">
               <li class="breadcrumbs__item">
-                <a href="#" class="breadcrumbs__link">Home</a>
+                <a href="index.html" class="breadcrumbs__link">Home</a>
               </li>
-              <li class="breadcrumbs__item">
-                <a class="breadcrumbs__link">Features</a>
+              <li class="breadcrumbs__item  breadcrumbs__item_current">
+                Features
               </li>
             </ul>
           </div>
         </div>
       </section>
 
-      <div class="container">
-        <div class="carousel">
+      <div class="carousel_inner-wrapper  container">
+        <div class="carousel  carousel_inner">
           <input class="carousel__active" type="radio" id="carousel-1" name="carousel" hidden checked>
           <div class="carousel__item">
-            <div class="carousel__controls">
-              <label for="carousel-3" class="carousel__control prev" title="Prev">
+            <div class="carousel__controls  carousel__controls_inner">
+              <label for="carousel-3" class="carousel__control  carousel__control_inner  prev" title="Prev">
                 <i class="fa fa-angle-double-left" aria-hidden="true"></i>
               </label>
-              <label for="carousel-2" class="carousel__control next" title="Next">
+              <label for="carousel-2" class="carousel__control  carousel__control_inner  next" title="Next">
                 <i class="fa fa-angle-double-right" aria-hidden="true"></i>
               </label>
             </div>
@@ -159,11 +159,11 @@
 
           <input class="carousel__active" type="radio" id="carousel-2" name="carousel" hidden>
           <div class="carousel__item">
-            <div class="carousel__controls">
-              <label for="carousel-1" class="carousel__control prev" title="Prev">
+            <div class="carousel__controls  carousel__controls_inner">
+              <label for="carousel-1" class="carousel__control  carousel__control_inner  prev" title="Prev">
                 <i class="fa fa-angle-double-left" aria-hidden="true"></i>
               </label>
-              <label for="carousel-3" class="carousel__control next" title="Next">
+              <label for="carousel-3" class="carousel__control  carousel__control_inner  next" title="Next">
                 <i class="fa fa-angle-double-right" aria-hidden="true"></i>
               </label>
             </div>
@@ -174,11 +174,11 @@
 
           <input class="carousel__active" type="radio" id="carousel-3" name="carousel" hidden>
           <div class="carousel__item">
-            <div class="carousel__controls">
-              <label for="carousel-2" class="carousel__control prev" title="Prev">
+            <div class="carousel__controls  carousel__controls_inner">
+              <label for="carousel-2" class="carousel__control  carousel__control_inner  prev" title="Prev">
                 <i class="fa fa-angle-double-left" aria-hidden="true"></i>
               </label>
-              <label for="carousel-1" class="carousel__control next" title="Next">
+              <label for="carousel-1" class="carousel__control  carousel__control_inner  next" title="Next">
                 <i class="fa fa-angle-double-right" aria-hidden="true"></i>
               </label>
             </div>
@@ -187,7 +187,7 @@
             </div>
           </div>
 
-          <ol class="carousel__indicators">
+          <ol class="carousel__indicators  carousel__indicators_inner">
             <li>
               <label for="carousel-1" class="carousel__indicator"></label>
             </li>
@@ -201,7 +201,7 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="gallery-wrapper  container">
         <section class="gallery">
           <div class="gallery__main">
             <div class="g-carousel">
@@ -332,32 +332,32 @@
               <div class="sidebar-gallery__items">
                 <div class="sidebar-gallery__item">
                   <a class="sidebar-gallery__link" href="#" title="Open the image in full size">
-                    <img class="sidebar-gallery__thumb" src="" alt="">
+                    <img src="./img/photo-3.png" alt="">
                   </a>
                 </div>
                 <div class="sidebar-gallery__item">
                   <a class="sidebar-gallery__link" href="#" title="Open the image in full size">
-                    <img class="sidebar-gallery__thumb" src="" alt="">
+                    <img src="./img/photo-3.png" alt="">
                   </a>
                 </div>
                 <div class="sidebar-gallery__item">
                   <a class="sidebar-gallery__link" href="#" title="Open the image in full size">
-                    <img class="sidebar-gallery__thumb" src="" alt="">
+                    <img src="./img/photo-3.png" alt="">
                   </a>
                 </div>
                 <div class="sidebar-gallery__item">
                   <a class="sidebar-gallery__link" href="#" title="Open the image in full size">
-                    <img class="sidebar-gallery__thumb" src="" alt="">
+
                   </a>
                 </div>
                 <div class="sidebar-gallery__item">
                   <a class="sidebar-gallery__link" href="#" title="Open the image in full size">
-                    <img class="sidebar-gallery__thumb" src="" alt="">
+
                   </a>
                 </div>
                 <div class="sidebar-gallery__item">
                   <a class="sidebar-gallery__link" href="#" title="Open the image in full size">
-                    <img class="sidebar-gallery__thumb" src="" alt="">
+
                   </a>
                 </div>
               </div>
@@ -367,29 +367,29 @@
       </div>
 
       <div class="container">
-        <div class="services">
-          <a href="#" class="service__link">
+        <div class="services  services_inner">
+          <a href="#" class="service__link  service__link_inner">
             <section class="service service_suspendisse">
               <h4 class="service__title">SUSPENDISSE</h4>
               <p class="service__text"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc.</p>
               <span class="service__btn btn">read more</span>
             </section>
           </a>
-          <a href="#" class="service__link">
+          <a href="#" class="service__link  service__link_inner">
             <section class="service service_maecenas">
               <h4 class="service__title">MAECENAS</h4>
               <p class="service__text">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
               <span class="service__btn btn">read more</span>
             </section>
           </a>
-          <a href="#" class="service__link">
+          <a href="#" class="service__link  service__link_inner">
             <section class="service service_aliquam">
               <h4 class="service__title">ALIQUAM</h4>
               <p class="service__text">Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
               <span class="service__btn btn">read more</span>
             </section>
           </a>
-          <a href="#" class="service__link">
+          <a href="#" class="service__link  service__link_inner">
             <section class="service service_habitasse">
               <h4 class="service__title">HABITASSE</h4>
               <p class="service__text">Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
@@ -1094,7 +1094,7 @@
             <div class="page-footer__preview">
               <a href="#" class="page-footer__preview-link">
                 <div class="page-footer__preview-pic">
-                  <i class="fa fa-picture-o" aria-hidden="true"></i>
+                  <img src="./img/photo-3.png" alt="">
                 </div>
                 <div class="page-footer__preview-descr">
                   <p class="page-footer__preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -1105,7 +1105,7 @@
             <div class="page-footer__preview">
               <a href="#" class="page-footer__preview-link">
                 <div class="page-footer__preview-pic">
-                  <i class="fa fa-picture-o" aria-hidden="true"></i>
+
                 </div>
                 <div class="page-footer__preview-descr">
                   <p class="page-footer__preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>

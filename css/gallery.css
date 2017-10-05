@@ -1,0 +1,135 @@
+.gallery-wrapper {
+  margin-bottom: 56px;
+}
+
+.gallery {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.gallery__main {
+  flex: 0 0 74.4%;
+}
+
+.gallery__content {
+  min-height: 568px;
+  border-radius: 5px;
+  box-shadow: 0 3px #e5e6e6;
+  background-color:  #f8f8f8;
+}
+
+.gallery__content_first {
+  background-image: url(../img/photo-1.jpg);
+}
+
+.gallery__content_second {
+  background-image: url(../img/photo-2.jpg);
+}
+
+.gallery__content_third {
+  background-image: url(../img/photo-3.png);
+}
+
+.gallery__sidebar {
+  flex: 0 0 23%;
+  margin-left: auto;
+}
+
+
+/* ========== sidebar-slideshow ========== */
+
+.sidebar-slideshow {
+  margin-bottom: 44px;
+}
+
+.sidebar-slideshow__content {
+  min-height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 3px #e5e6e6;
+  background-color:  #f8f8f8;
+}
+
+.sidebar-slideshow__content_first {
+  background-image: url(../img/photo-1.jpg);
+}
+
+.sidebar-slideshow__content_second {
+  background-image: url(../img/photo-2.jpg);
+}
+
+.sidebar-slideshow__content_third {
+  background-image: url(../img/photo-3.png);
+}
+
+
+/* ========== sidebar-gallery ========== */
+.sidebar-gallery__title {
+  margin-bottom: 25px;
+  padding-left: 2px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 800;
+  color:  #7f8c8c;
+  text-transform: uppercase;
+}
+
+.sidebar-gallery__items {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -9.333333%;
+}
+
+.sidebar-gallery__item {
+  position: relative;
+  flex: 0 0 24%;
+  height: 65px;
+  margin-left: 9.333333%;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 3px #e5e6e6;
+}
+
+.sidebar-gallery__item::before {
+  content: "\f03e";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: FontAwesome;
+  font-size: 30px;
+  line-height: 65px;
+  text-align: center;
+  color: #ececec;
+}
+
+.sidebar-gallery__link {
+  position: relative;
+  z-index: 10;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-gallery__item img {
+  display: block;
+  width: 70px;
+  height: 65px;
+  border-radius: 5px;
+  transition: ease-in-out 0.3s;
+}
+
+.sidebar-gallery__item img:hover {
+  transform: scale(1.5);
+}

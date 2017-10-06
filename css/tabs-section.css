@@ -1,18 +1,16 @@
-.accordions {
+.tabs-section {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  padding-top: 32px;
-  margin-bottom: 40px;
 }
 
-.accordions__main {
+.tabs-section__main {
   flex: 0 0 74.4%;
 }
 
-.accordions__sidebar {
+.tabs-section__sidebar {
   flex: 0 0 23%;
   margin-left: auto;
 }

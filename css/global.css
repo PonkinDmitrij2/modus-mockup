@@ -61,6 +61,9 @@
 @import url(./accordions.css);
 @import url(./accordion.css);
 @import url(./s-accordion.css);
+@import url(./tabs-section.css);
+@import url(./tabs.css);
+@import url(./s-tabs.css);
 
 @import url(./g-carousel.css);
 @import url(./s-carousel.css);

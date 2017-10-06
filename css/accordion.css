@@ -55,7 +55,7 @@
 }
 
 .accordion__open:checked + .accordion__control + .accordion__content {
-  height: 80px;
+  height: 70px;
   margin-bottom: 6px;
   font-size: 13px;
   line-height: 1.6;

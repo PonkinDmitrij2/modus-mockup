@@ -1,5 +1,6 @@
 .tabs {
   width: 100%;
+  margin-bottom: 34px;
   font-size: 0;
 }
 
@@ -91,7 +92,7 @@
   z-index: 10;
   display: block;
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
   border-radius: 5px;
 }
 

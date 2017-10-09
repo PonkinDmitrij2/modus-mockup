@@ -15,7 +15,7 @@
 }
 
 .gallery__content {
-  min-height: 568px;
+  height: 568px;
   border-radius: 5px;
   box-shadow: 0 3px #e5e6e6;
   background-color:  #f8f8f8;
@@ -34,7 +34,7 @@
 }
 
 .gallery__sidebar {
-  flex: 0 0 23%;
+  flex: 0 0 23.05%;
   margin-left: auto;
 }
 
@@ -46,22 +46,10 @@
 }
 
 .sidebar-slideshow__content {
-  min-height: 200px;
+  height: 203px;
   border-radius: 5px;
-  box-shadow: 0 3px #e5e6e6;
+  border-bottom: 3px solid #e5e6e6;
   background-color:  #f8f8f8;
-}
-
-.sidebar-slideshow__content_first {
-  background-image: url(../img/photo-1.jpg);
-}
-
-.sidebar-slideshow__content_second {
-  background-image: url(../img/photo-2.jpg);
-}
-
-.sidebar-slideshow__content_third {
-  background-image: url(../img/photo-3.png);
 }
 
 

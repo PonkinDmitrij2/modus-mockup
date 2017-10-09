@@ -18,7 +18,7 @@
 }
 
 .carousel__content {
-  min-height: 700px;
+  height: 700px;
   border-radius: 5px;
   box-shadow: 0 3px #e5e6e6;
   background-color:  #f8f8f8;

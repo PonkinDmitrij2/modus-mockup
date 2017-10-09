@@ -20,8 +20,9 @@
 
 .g-carousel__item img {
   display: block;
-  height: auto;
   max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
 }
 
 .g-carousel__controls {

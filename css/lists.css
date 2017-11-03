@@ -1,0 +1,83 @@
+.lists {
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.lists::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -47px;
+  height: 3px;
+  background-color: #e5e6e6;
+}
+
+.lists__row {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.lists__item {
+  flex: 0 0 22%;
+  margin-right: 3.6%;
+}
+
+.lists__item:last-child {
+  margin-right: 0;
+}
+
+.lists__item h3 {
+  margin: 0;
+  margin-bottom: 26px;
+  padding-left: 3px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #7F8C8C;
+}
+
+.lists__item ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 7px;
+  list-style: none;
+  font-size: 14px;
+  line-height: 2;
+  color: #777;
+}
+
+.lists__item:first-child ul {
+  font-size: 1rem;
+}
+
+.marker li::before {
+  display: inline-block;
+  margin-right: 5px;
+  font-family: "FontAwesome";
+  font-size: 12px;
+}
+
+.marker-arrow-right li::before {
+  content: "\f061";
+  color: #e1524b;
+}
+
+.marker-times li::before {
+  content: "\f00d";
+  color: #e1524b;
+}
+
+.marker-chevron-circle-right li::before {
+  content: "\f138";
+  color: #62b9b0;
+}
+
+.marker-check li::before {
+  content: "\f00c";
+  color: #61b8b0;
+}
+
